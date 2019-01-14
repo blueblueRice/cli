@@ -4,6 +4,10 @@ const mkdir = require('./util/mkdir')
 const download = require('./util/download')
 
 program
+  .version(require('../package.json').version)
+  .parse(process.argv)
+
+program
   .command('m <project-name>')
   .description('init project for local')
   .action(async function (name) {
