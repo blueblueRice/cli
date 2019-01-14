@@ -33,8 +33,10 @@ program
   .description('download the koa-ts-template')
   .action(async function (name) {
     try {
+      console.log('创建文件中...')
       await mkdir(name)
       console.log('创建成功')
+      console.log('下载模板中...')
       await download(name)
       console.log('下载成功')
     } catch (e) {
