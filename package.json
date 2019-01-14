@@ -1,0 +1,33 @@
+{
+  "name": "bluebluerice-cli",
+  "version": "1.0.0",
+  "description": "个人开发用脚手架",
+  "main": "index.js",
+  "bin": {
+    "bbr": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueblueRice/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "bluebluerice@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueblueRice/cli/issues"
+  },
+  "homepage": "https://github.com/blueblueRice/cli#readme",
+  "devDependencies": {
+    "commander": "^2.19.0",
+    "glob": "^7.1.3"
+  },
+  "dependencies": {
+    "download-git-repo": "^1.1.0",
+    "mkdirp": "^0.5.1"
+  }
+}
